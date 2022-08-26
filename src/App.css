@@ -2,14 +2,15 @@
 
 /* universal selector */
 * {
-  background-color: var(--pink);
+  background-color: var(--periwinkle-crayola);
   font-family: roboto flex;
 }
 
 :root {
-  --light-pink: #E0CCD1;
-  --pink: #D8C0C6;
-  --dark-purple: #1A1423;
+  --lavendar-web: #E0E4F5;
+  --periwinkle-crayola: #C1C6EB;
+  --gunmetal: #183642;
+  --atomic-tangerine: #FF9666;
   --white: white;
 }
 
@@ -21,23 +22,27 @@ h2, h3, h4, a {
 
 /* utility classes */
 .dark-font {
-  color: var(--dark-purple);
+  color: var(--gunmetal);
 }
 
 .white-font {
   color: var(--white);
 }
 
-.light-background {
-  background-color: var(--light-pink);
+.orange-font {
+  color: var(--atomic-tangerine);
 }
 
-.pink-background {
-  background-color: var(--pink);
+.lavendar-background {
+  background-color: var(--lavendar-web);
+}
+
+.periwinkle-background {
+  background-color: var(--periwinkle-crayola);
 }
 
 .dark-background {
-  background-color: var(--dark-purple);
+  background-color: var(--gunmetal);
 }
 
 .koulen {
@@ -52,12 +57,12 @@ h2, h3, h4, a {
 
 /* header stuff */
 #logo {
-  background-color: var(--pink);
-  height: 100px;
+  background-color: var(--periwinkle-crayola);
+  height: 125px;
 }
 
 .nav-items {
-  background-color: var(--pink) !important;
+  background-color: var(--periwinkle-crayola) !important;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -65,19 +70,19 @@ h2, h3, h4, a {
 }
 
 .navbar-item {
-  background-color: var(--pink);
-  color: var(--dark-purple);
+  background-color: var(--periwinkle-crayola);
+  color: var(--gunmetal);
   padding: 15px;
   border-radius: 35px;
 }
 
 .navbar-item:hover {
-  background-color: var(--pink) !important;
+  background-color: var(--periwinkle-crayola) !important;
   color: var(--white) !important;
 }
 
 .hover-ignore:hover {
-  background-color: var(--pink) !important;
+  background-color: var(--periwinkle-crayola) !important;
 }
 /* header stuff */
 
@@ -91,7 +96,7 @@ h2, h3, h4, a {
 
 /* portfolio stuff */
 .projects a {
-  color: var(--dark-purple);
+  color: var(--gunmetal);
 }
 
 .projects {
