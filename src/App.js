@@ -8,8 +8,8 @@ import './App.css';
 // import components
 import Nav from './components/Nav';
 import About from './components/About';
-
-import Footer from './components/Footer';
+import Engage from './components/Engage';
+import Listen from './components/Listen';
 
 // page's JSX
 function App() {
@@ -18,10 +18,8 @@ function App() {
       <Nav />
       <main className="container lavendar-background">
         <About />
-        {/* <Portfolio />
-        <Resume />
-        <Contact /> */}
-        <Footer />
+        <Listen />
+        <Engage />
       </main>
     </body>
   );

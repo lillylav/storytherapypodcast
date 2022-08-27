@@ -23,16 +23,16 @@ function Nav() {
 
                 <div className="navbar-menu navbar-end periwinkle-background">
                     <a href="#about" className="navbar-item is-size-4" activeClassName="selected">
-                        Home
+                        About
                     </a>
-                    <a href="#portfolio" className="navbar-item is-size-4">
-                        Portfolio
+                    <a href="#listen" className="navbar-item is-size-4">
+                        Listen
                     </a>
-                    <a href="#resume" className="navbar-item is-size-4">
-                        Resume
+                    <a href="#engage" className="navbar-item is-size-4">
+                        Engage
                     </a>
-                    <a href="#contact" className="navbar-item is-size-4">
-                        Contact
+                    <a href="#stories" className="navbar-item is-size-4">
+                        Story Recs
                     </a>
                 </div>
             </nav>
