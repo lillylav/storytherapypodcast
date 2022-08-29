@@ -17,9 +17,9 @@ function App() {
     <body className="lavendar-background">
       <Nav />
       <main className="container lavendar-background">
-        <About />
         <Listen />
         <Engage />
+        <About />
       </main>
     </body>
   );
