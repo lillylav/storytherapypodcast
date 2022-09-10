@@ -1,5 +1,7 @@
 // import libraries
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 import 'bulma/css/bulma.min.css';
 
 //import files
@@ -20,10 +22,15 @@ function App() {
       <Banner />
 
         <main className="container lavendar-background">
+          {/* <Route path="/" element={ } /> */}
           <Listen />
           <About />
-          <Engage />
+          <Engage /> 
+          
         </main>
+        <footer className="lavendar-background">
+          <br />
+        </footer>
     </body>
   );
 }

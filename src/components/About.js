@@ -9,7 +9,7 @@ function About() {
         <section id="about" className="box m-3 mt-5 periwinkle-background">
             <h2 className="title is-2 has-text-centered dark-font">Story Therapy Podcast</h2>
             <h3 className="subtitle is-5 has-text-centered dark-font">We see ourselves better when we're seen</h3>
-            <div className="columns">
+            <div className="columns p-4">
                 <div className="column is-one-third periwinkle-background">
                     <img src={ coverImage } id="lilly-img" className="" style={{ width: "100%" }} alt="A late twenties white woman with a shoulder length straight blonde hair and brown eyes smiling" />
                 </div>

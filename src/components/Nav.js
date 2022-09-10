@@ -25,15 +25,15 @@ function Nav() {
                     <a href="#listen" className="navbar-item is-size-4">
                         Listen
                     </a>
-                    <a href="#engage" className="navbar-item is-size-4">
-                        Engage
-                    </a>
                     <a href="#about" className="navbar-item is-size-4" activeClassName="selected">
                         About
                     </a>
-                    <a href="#stories" className="navbar-item is-size-4">
-                        Story Recs
+                    <a href="#engage" className="navbar-item is-size-4">
+                        Engage
                     </a>
+                    {/* <a href="/story-recs" className="navbar-item is-size-4">
+                        Story Recs
+                    </a> */}
                 </div>
             </nav>
         </header>
