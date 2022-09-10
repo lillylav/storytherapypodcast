@@ -7,20 +7,23 @@ import './App.css';
 
 // import components
 import Nav from './components/Nav';
+import Banner from './components/Banner';
+import Listen from './components/Listen';
 import About from './components/About';
 import Engage from './components/Engage';
-import Listen from './components/Listen';
 
 // page's JSX
 function App() {
   return (
     <body className="lavendar-background">
       <Nav />
-      <main className="container lavendar-background">
-        <Listen />
-        <Engage />
-        <About />
-      </main>
+      <Banner />
+
+        <main className="container lavendar-background">
+          <Listen />
+          <About />
+          <Engage />
+        </main>
     </body>
   );
 }

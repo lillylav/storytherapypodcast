@@ -22,14 +22,14 @@ function Nav() {
                 </div>
 
                 <div className="navbar-menu navbar-end periwinkle-background">
-                    <a href="#about" className="navbar-item is-size-4" activeClassName="selected">
-                        About
-                    </a>
                     <a href="#listen" className="navbar-item is-size-4">
                         Listen
                     </a>
                     <a href="#engage" className="navbar-item is-size-4">
                         Engage
+                    </a>
+                    <a href="#about" className="navbar-item is-size-4" activeClassName="selected">
+                        About
                     </a>
                     <a href="#stories" className="navbar-item is-size-4">
                         Story Recs

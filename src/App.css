@@ -86,6 +86,11 @@ h2, h3, h4, a {
 }
 /* header stuff */
 
+/* banner stuff */
+#banner {
+  width: 100%;
+}
+/* banner stuff */
 
 /* about stuff */
 #lilly-img {
