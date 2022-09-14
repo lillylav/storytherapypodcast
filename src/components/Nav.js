@@ -9,7 +9,7 @@ function Nav() {
     return (
         <header className="header">
             <nav className="navbar nav-items" role="navigation" aria-label="main navigation">
-                <div className="navbar-brand">
+                <a href="/" className="navbar-brand">
                     <a className="hover-ignore">
                         <img src={ logoImage } id="logo" className="" alt="'Story Therapy Podcast' with a microphone surrounded by headphones" />
                     </a>
@@ -19,21 +19,18 @@ function Nav() {
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     </a>
-                </div>
+                </a>
 
                 <div className="navbar-menu navbar-end periwinkle-background">
-                    <a href="#listen" className="navbar-item is-size-4">
+                    <a href="/#listen" className="navbar-item is-size-4">
                         Listen
                     </a>
-                    <a href="#about" className="navbar-item is-size-4" activeClassName="selected">
+                    <a href="/#about" className="navbar-item is-size-4" activeClassName="selected">
                         About
                     </a>
-                    <a href="#engage" className="navbar-item is-size-4">
-                        Engage
-                    </a>
-                    {/* <a href="/story-recs" className="navbar-item is-size-4">
+                    <a href="/recs" className="navbar-item is-size-4">
                         Story Recs
-                    </a> */}
+                    </a>
                 </div>
             </nav>
         </header>

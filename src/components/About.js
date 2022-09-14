@@ -2,16 +2,17 @@
 import React from "react";
 
 // import image
-import coverImage from "../img/lilly.jpg";
+import lillyImg from "../img/lilly.jpg";
+import nameImg from "../img/name.png";
 
 function About() {
     return (
-        <section id="about" className="box m-3 mt-5 periwinkle-background">
-            <h2 className="title is-2 has-text-centered dark-font">Story Therapy Podcast</h2>
-            <h3 className="subtitle is-5 has-text-centered dark-font">We see ourselves better when we're seen</h3>
+
+        <section id="about" className="box m-3 mt-5 has-text-centered periwinkle-background">
+            <img src={ nameImg } id="name-img" className="" style={{ width: "75%" }} alt="" />
             <div className="columns p-4">
                 <div className="column is-one-third periwinkle-background">
-                    <img src={ coverImage } id="lilly-img" className="" style={{ width: "100%" }} alt="A late twenties white woman with a shoulder length straight blonde hair and brown eyes smiling" />
+                    <img src={ lillyImg } id="lilly-img" className="" style={{ width: "100%" }} alt="A late twenties white woman with a shoulder length straight blonde hair and brown eyes smiling with a brown puppy" />
                 </div>
                 <div className="column is-two-thirds periwinkle-background">
                     <p class="mb-2 dark-font">

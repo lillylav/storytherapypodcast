@@ -58,7 +58,7 @@ h2, h3, h4, a {
 /* header stuff */
 #logo {
   background-color: var(--periwinkle-crayola);
-  height: 125px;
+  height: 80px;
 }
 
 .nav-items {
