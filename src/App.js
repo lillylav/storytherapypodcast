@@ -25,13 +25,13 @@ function App() {
 
           <main className="container lavendar-background">
             <Switch>
-              <Route exact path="/">
+              {/* <Route exact path="/"> */}
                 <Listen />
                 <About />
-              </Route>
-              <Route path="/recs">
+              {/* </Route>
+              <Route path="/recs"> */}
                 <Recs />
-              </Route>
+              {/* </Route> */}
             </Switch>
             <Engage />
           </main>
