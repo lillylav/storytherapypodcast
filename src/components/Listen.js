@@ -17,21 +17,21 @@ function Listen() {
                             <a href="https://open.spotify.com/show/2jIln2x3n06beogkLmELKt" target="_blank" className="dark-font link">
                                 <img src={ spotifyImg } id="name-img" className="" style={{ width: "85%" }} alt="" />
                                 <br />
-                                <img src="https://img.icons8.com/ios-filled/50/000000/spotify.png"/>
+                                <img src="https://img.icons8.com/ios-filled/50/F0F2FA/spotify.png"/>
                             </a>
                         </div>
                         <div className="column has-text-centered">
                             <a href="https://podcasts.apple.com/us/podcast/story-therapy-podcast/id1641952821" target="_blank" className="dark-font link">
                                 <img src={ appleImg } id="name-img" className="" style={{ width: "85%" }} alt="" />
                                 <br />
-                                <img src="https://img.icons8.com/material-rounded/60/000000/apple-podcasts.png"/>
+                                <img src="https://img.icons8.com/material-rounded/55/F0F2FA/apple-podcasts.png"/>
                             </a>
                         </div>
                         <div className="column has-text-centered">
                             <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy82NWQzYTI3NC9wb2RjYXN0L3Jzcw==" target="_blank" className="dark-font link">
                                 <img src={ googleImg } id="name-img" className="" style={{ width: "85%" }} alt="" />
                                 <br />
-                                <img src="https://img.icons8.com/ios-filled/50/000000/google-podcasts.png"/>
+                                <img src="https://img.icons8.com/ios-filled/50/F0F2FA/google-podcasts.png"/>
                             </a>
                         </div>
                     </div>
