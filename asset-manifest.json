@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/storytherapypodcast/static/css/main.4a3ddd44.css",
-    "main.js": "/storytherapypodcast/static/js/main.b73c3692.js",
+    "main.js": "/storytherapypodcast/static/js/main.829746aa.js",
     "static/js/787.506085ab.chunk.js": "/storytherapypodcast/static/js/787.506085ab.chunk.js",
     "static/media/lilly.jpg": "/storytherapypodcast/static/media/lilly.2ddd4b7d3524f9d8d544.jpg",
     "static/media/name.png": "/storytherapypodcast/static/media/name.269143d3bfd1f72b721f.png",
@@ -16,11 +16,11 @@
     "static/media/apple.png": "/storytherapypodcast/static/media/apple.26abaabf3fbe1935a330.png",
     "index.html": "/storytherapypodcast/index.html",
     "main.4a3ddd44.css.map": "/storytherapypodcast/static/css/main.4a3ddd44.css.map",
-    "main.b73c3692.js.map": "/storytherapypodcast/static/js/main.b73c3692.js.map",
+    "main.829746aa.js.map": "/storytherapypodcast/static/js/main.829746aa.js.map",
     "787.506085ab.chunk.js.map": "/storytherapypodcast/static/js/787.506085ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a3ddd44.css",
-    "static/js/main.b73c3692.js"
+    "static/js/main.829746aa.js"
   ]
 }
